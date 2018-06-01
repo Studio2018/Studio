@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#282d42"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_marginTop="120dp"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:src="@drawable/studio"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Nombre de Usuario:"
+        android:id="@+id/textousuario"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextformato"
+        android:layout_marginTop="10dp"
+        android:padding="25px"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Nombre de usuario"
+        android:textColor="#dadada"
+        android:id="@+id/usuario"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textColor="#ffffff"
+        android:text="Contrasena:"
+        android:id="@+id/textocontrasena"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextformato"
+        android:layout_marginTop="10dp"
+        android:padding="25px"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Contrasena"
+        android:textColor="#dadada"
+        android:id="@+id/contrasena"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:background="@drawable/botonformato"
+        android:layout_marginTop="80px"
+        android:textColor="#f2f2f2"
+        android:id="@+id/login"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No tienes una cuenta? Crea una aqui"
+        android:textColor="#f2f2f2"
+        android:textSize="5pt"
+        android:id="@+id/registrar"
+        />
+
+</LinearLayout>

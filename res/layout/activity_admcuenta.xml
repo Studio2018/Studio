@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#282d42"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu"
+            android:background="#282d42"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="40px"
+            android:layout_marginBottom="40px"
+            android:layout_marginRight="80px"
+            android:id="@+id/menuhamburgesa"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/studio3"
+            android:layout_marginTop="45px"
+            android:layout_marginLeft="1000px"
+            android:id="@+id/studio"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#282d42"
+        >
+
+        <ImageView
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:src="@drawable/perfil"
+            android:layout_margin="15px"
+            android:id="@+id/perfil"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre De Usuario"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="50px"
+            android:textSize="7pt"
+            android:id="@+id/nombreuseario"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginRight="60px"
+        android:layout_marginLeft="60px"
+        android:layout_marginTop="60px"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="30">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:layout_marginLeft="0px"
+                android:layout_marginRight="10px"
+                android:text="Grupos Recientes"
+                android:padding="20px"
+                android:background="#bfc0c0"
+                android:textColor="#ffffff"
+                android:id="@+id/gruposrecientes"
+                />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="0px"
+                android:layout_marginLeft="0px"
+                android:layout_marginRight="10px"
+                android:id="@+id/grupos"
+                >
+            </ListView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="0px"
+            android:layout_marginBottom="0px"
+            android:background="@drawable/botonformato"
+            android:src="@drawable/mas"
+            android:id="@+id/vergrupos"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginRight="60px"
+        android:layout_marginLeft="60px"
+        android:layout_marginTop="60px"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="30"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:layout_marginRight="10px"
+                android:text="Mis Contactos"
+                android:padding="20px"
+                android:background="#bfc0c0"
+                android:textColor="#ffffff"
+                android:id="@+id/miscontactostxt"
+                />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="400px"
+                android:layout_marginTop="0px"
+                android:layout_marginRight="10px"
+                android:id="@+id/miscontactos"
+                >
+            </ListView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="0px"
+            android:layout_marginBottom="0px"
+            android:background="@drawable/botonformato"
+            android:src="@drawable/mas"
+            android:id="@+id/vercontactos"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/generate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="60px"
+        android:text="Generar QR" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="40px"
+        android:paddingTop="40px">
+
+        <ImageButton
+            android:padding="40px"
+            android:id="@+id/files"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:background="#ffffff"
+            android:src="@drawable/folder" />
+
+        <ImageButton
+            android:padding="40px"
+            android:id="@+id/music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:background="#ffffff"
+            android:src="@drawable/playlists" />
+
+        <ImageButton
+            android:padding="40px"
+            android:id="@+id/calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:background="#ffffff"
+            android:src="@drawable/calendar" />
+
+        <ImageButton
+            android:padding="40px"
+            android:id="@+id/persona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:background="#ffffff"
+            android:src="@drawable/persona" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="#f2f2f2"
+    android:padding="30px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/nombredeentrega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30px"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="30px"
+        android:text="nombre de enterga"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_gravity="center_vertical"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="80px"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fecha"
+            android:textColor="#f0824e"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="80px"
+            android:id="@+id/fechadeentrega"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fecha"
+                android:textColor="#f0824e"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="10px"
+                android:layout_marginLeft="30px"
+                android:id="@+id/inicio"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fecha"
+                android:textColor="#f0824e"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="10px"
+                android:layout_marginLeft="30px"
+                android:id="@+id/fin"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botonformato"
+        android:src="@drawable/remove"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="150px"
+        android:id="@+id/removefgh"
+
+        />
+
+</LinearLayout>

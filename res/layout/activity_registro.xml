@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#282d42"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/studio"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Nombre de Usuario:"
+        android:id="@+id/tusuario"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextformato"
+        android:layout_marginTop="5dp"
+        android:padding="25px"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="Nombre de usuario"
+        android:textColor="#dadada"
+        android:id="@+id/user"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="E-Mail:"
+        android:id="@+id/tmail"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextformato"
+        android:layout_marginTop="5dp"
+        android:padding="25px"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="E-Mail"
+        android:textColor="#dadada"
+        android:id="@+id/email"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Contrasena:"
+        android:id="@+id/tcontrasena"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextformato"
+        android:layout_marginTop="5dp"
+        android:padding="25px"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="Contrasena"
+        android:textColor="#dadada"
+        android:id="@+id/contra"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Nombre de Usuario:"
+        android:id="@+id/tconficon"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextformato"
+        android:layout_marginTop="5dp"
+        android:padding="25px"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="Confirmar contrasena"
+        android:textColor="#dadada"
+        android:id="@+id/confirmcontra"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:background="@drawable/botonformato"
+        android:layout_marginTop="100px"
+        android:textColor="#f2f2f2"
+        android:id="@+id/registro"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ya tienes una cuenta? Ingresa aqui"
+        android:textColor="#f2f2f2"
+        android:textSize="5pt"
+        android:id="@+id/logear"
+        />
+
+</LinearLayout>

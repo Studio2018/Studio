@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="#f2f2f2"
+    android:padding="20px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cancion"
+        android:layout_margin="50px"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/nombreplaylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de la Playlist"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#282d42"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de la Cancion"
+            android:textColor="#282d42"
+            android:id="@+id/nombrecancion"
+            android:layout_marginTop="20px"
+            />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/play"
+        android:background="#f2f2f2"
+        android:layout_gravity="center_vertical"
+        android:padding="40px"
+        android:layout_marginLeft="400px"
+        android:id="@+id/play"
+        />
+
+</LinearLayout>

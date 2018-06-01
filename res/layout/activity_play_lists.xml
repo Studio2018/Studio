@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#282d42"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu"
+            android:background="#282d42"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="40px"
+            android:layout_marginBottom="40px"
+            android:layout_marginRight="80px"
+            android:id="@+id/menuhamburguesa"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/studio3"
+            android:layout_marginTop="45px"
+            android:layout_marginLeft="1000px"
+            android:id="@+id/studio"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Recomendados"
+        android:padding="20px"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60px"
+        android:textSize="8pt"
+        android:layout_marginRight="60px"
+        android:background="#bfc0c0"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="60px"
+        android:layout_marginRight="60px"
+        android:layout_marginTop="40px"
+        >
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+            <ImageButton
+                android:layout_width="400px"
+                android:layout_height="400px"
+                android:layout_marginRight="10px"
+                android:id="@+id/recomendado1"
+                android:src="@drawable/starboy"
+
+                />
+
+            <TextView
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="nombre "
+                android:textAlignment="center"
+                android:id="@+id/recomendadonombre1"
+                android:textSize="10pt"
+                />
+
+            <TextView
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="artista"
+                android:textAlignment="center"
+                android:id="@+id/artistarecomendado1"
+                android:textSize="7pt"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:layout_width="400px"
+                android:layout_height="400px"
+                android:id="@+id/recomendado2"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:src="@drawable/sia"
+                />
+
+            <TextView
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="nombre"
+                android:textAlignment="center"
+                android:id="@+id/recomendadonombre2"
+                android:textSize="10pt"
+                />
+
+            <TextView
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="artista"
+                android:textAlignment="center"
+                android:id="@+id/artistarecomendado2"
+                android:textSize="7pt"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageButton
+                android:layout_width="400px"
+                android:layout_height="400px"
+                android:id="@+id/recomendado3"
+                android:layout_marginLeft="10px"
+                android:src="@drawable/gemini"
+                />
+
+            <TextView
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="nombre"
+                android:textAlignment="center"
+                android:id="@+id/recomendadonombre3"
+                android:textSize="10pt"
+                />
+
+            <TextView
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="artista"
+                android:textAlignment="center"
+                android:id="@+id/artistarecomendado3"
+                android:textSize="7pt"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Mis Playlists"
+        android:padding="20px"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60px"
+        android:textSize="8pt"
+        android:layout_marginRight="60px"
+        android:background="#bfc0c0"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="900px"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="60px"
+        android:layout_marginRight="60px"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:layout_width="400px"
+                android:layout_height="400px"
+                android:id="@+id/myplaylist1"
+                android:layout_marginRight="10px"
+                android:src="@drawable/arcangel"
+                />
+
+            <TextView
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="nombre"
+                android:textAlignment="center"
+                android:id="@+id/plailistnombre1"
+                android:textSize="10pt"
+                />
+
+            <TextView
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="artista"
+                android:textAlignment="center"
+                android:id="@+id/artista1"
+                android:textSize="7pt"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:layout_width="400px"
+                android:layout_height="400px"
+                android:id="@+id/myplaylist2"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:src="@drawable/canserbero"
+                />
+
+            <TextView
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="nombre"
+                android:textAlignment="center"
+                android:id="@+id/plailistnombre2"
+                android:textSize="10pt"
+                />
+
+            <TextView
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="artista"
+                android:textAlignment="center"
+                android:id="@+id/artista2"
+                android:textSize="7pt"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:layout_width="400px"
+                android:layout_height="400px"
+                android:id="@+id/myplaylist3"
+                android:layout_marginLeft="10px"
+                android:src="@drawable/derulo"
+                />
+
+            <TextView
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="nombre"
+                android:textAlignment="center"
+                android:id="@+id/plailistnombre3"
+                android:textSize="10pt"
+                />
+
+            <TextView
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:text="artista"
+                android:textAlignment="center"
+                android:id="@+id/artista3"
+                android:textSize="7pt"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="40px"
+        android:paddingTop="40px">
+
+        <ImageButton
+            android:id="@+id/files"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:background="#ffffff"
+            android:padding="40px"
+            android:src="@drawable/folder" />
+
+        <ImageButton
+            android:id="@+id/music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:background="#ffffff"
+            android:padding="40px"
+            android:src="@drawable/playlists" />
+
+        <ImageButton
+            android:id="@+id/calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:background="#ffffff"
+            android:padding="40px"
+            android:src="@drawable/calendar" />
+
+        <ImageButton
+            android:id="@+id/persona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:background="#ffffff"
+            android:padding="40px"
+            android:src="@drawable/persona" />
+
+    </LinearLayout>
+</LinearLayout>

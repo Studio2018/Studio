@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="#f2f2f2"
+    android:padding="20px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/file"
+        android:layout_margin="50px"
+        android:paddingLeft="150px"
+        android:id="@+id/cambiable"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/nombrearchivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre De Archivo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#282d42"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estado de archivo"
+            android:textColor="#282d42"
+            android:id="@+id/estadoarchivo"
+            android:layout_marginTop="20px"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
